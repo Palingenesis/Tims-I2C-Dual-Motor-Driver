@@ -380,3 +380,5 @@ My_Plot_Files/
 /Tims_I2C_Dual_Motor_Driver.20240705-195104.FCBak
 /Tims_I2C_Dual_Motor_Driver.20240705-195239.FCBak
 /Pcb_bdb6.wrz
+/.gitignore
+/.gitattributes
