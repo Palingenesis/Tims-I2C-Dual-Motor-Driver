@@ -362,7 +362,6 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /Tims_I2C_Dual_Motor_Driver.FCStd
-Plot_Files/
 Tims_I2C_Dual_Motor_Driver-backups/
 My_Plot_Files/
 /Backup_of_Shape 2D View PCB.cdr
@@ -382,3 +381,16 @@ My_Plot_Files/
 /Pcb_bdb6.wrz
 /.gitignore
 /.gitattributes
+/Plot_Files/Plot_Files.zip
+/Plot_Files/Tims_I2C_Dual_Motor_Driver-B_Cu.gbr
+/Plot_Files/Tims_I2C_Dual_Motor_Driver-B_Mask.gbr
+/Plot_Files/Tims_I2C_Dual_Motor_Driver-B_Paste.gbr
+/Plot_Files/Tims_I2C_Dual_Motor_Driver-B_Silkscreen.gbr
+/Plot_Files/Tims_I2C_Dual_Motor_Driver-Edge_Cuts.gbr
+/Plot_Files/Tims_I2C_Dual_Motor_Driver-F_Cu.gbr
+/Plot_Files/Tims_I2C_Dual_Motor_Driver-F_Mask.gbr
+/Plot_Files/Tims_I2C_Dual_Motor_Driver-F_Paste.gbr
+/Plot_Files/Tims_I2C_Dual_Motor_Driver-F_Silkscreen.gbr
+/Plot_Files/Tims_I2C_Dual_Motor_Driver-job.gbrjob
+/Plot_Files/Tims_I2C_Dual_Motor_Driver-NPTH.drl
+/Plot_Files/Tims_I2C_Dual_Motor_Driver-PTH.drl
