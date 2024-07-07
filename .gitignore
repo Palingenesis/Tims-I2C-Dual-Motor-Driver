@@ -361,3 +361,22 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Tims_I2C_Dual_Motor_Driver.FCStd
+Plot_Files/
+Tims_I2C_Dual_Motor_Driver-backups/
+My_Plot_Files/
+/Backup_of_Shape 2D View PCB.cdr
+/Backup_of_Shape 2D View Schematic.cdr
+/Backup_of_Shape 2D View.cdr
+/Backup_of_Shape 3D View.cdr
+/Shape 2D View PCB.cdr
+/Shape 2D View PCB.svg
+/Shape 2D View Schematic.cdr
+/Shape 2D View Schematic.svg
+/Shape 2D View.cdr
+/Shape 2D View.svg
+/Shape 3D View.cdr
+/Shape 3D View.svg
+/Tims_I2C_Dual_Motor_Driver.20240705-195104.FCBak
+/Tims_I2C_Dual_Motor_Driver.20240705-195239.FCBak
+/Pcb_bdb6.wrz
