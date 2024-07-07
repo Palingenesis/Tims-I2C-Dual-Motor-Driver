@@ -361,6 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+Plot_Files/
 /Tims_I2C_Dual_Motor_Driver.FCStd
 Tims_I2C_Dual_Motor_Driver-backups/
 /Backup_of_Shape 2D View PCB.cdr
@@ -380,4 +381,15 @@ Tims_I2C_Dual_Motor_Driver-backups/
 /Pcb_bdb6.wrz
 /.gitignore
 /.gitattributes
-Plot_Files/
+/My_Plot_Files/00_My_laser_Cut Paste Mask (Kurf Adjusted) @ 1000.nc
+/My_Plot_Files/My laser Cut Paste Mask (Kurf Adjusted).dxf
+/My_Plot_Files/My laser Cut Paste Mask.dxf
+/My_Plot_Files/Tims_I2C_Dual_Motor_Driver-B_Cu.dxf
+/My_Plot_Files/Tims_I2C_Dual_Motor_Driver-B_Mask.dxf
+/My_Plot_Files/Tims_I2C_Dual_Motor_Driver-B_Paste.dxf
+/My_Plot_Files/Tims_I2C_Dual_Motor_Driver-B_Silkscreen.dxf
+/My_Plot_Files/Tims_I2C_Dual_Motor_Driver-Edge_Cuts.dxf
+/My_Plot_Files/Tims_I2C_Dual_Motor_Driver-F_Cu.dxf
+/My_Plot_Files/Tims_I2C_Dual_Motor_Driver-F_Mask.dxf
+/My_Plot_Files/Tims_I2C_Dual_Motor_Driver-F_Paste.dxf
+/My_Plot_Files/Tims_I2C_Dual_Motor_Driver-F_Silkscreen.dxf
