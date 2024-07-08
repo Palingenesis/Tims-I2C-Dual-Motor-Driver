@@ -3,8 +3,16 @@
 ## This is an I2C controlled Dual Motor Driver Board.  
 ### Files are for [KiCAD EDA](https://www.kicad.org/)  
 There is <span style="font-size: large;">**"Tims_I2C_Dual_Motor_Driver.kicad_pcb.zip"**</span> file  
-* This can be used when asked for **"Plot Files"** at <img src="images/PCBWay179x50.png" alt="PCBWay" width="90" height="25"> when ordering 10 PCBs  
-  
+* This can be used when **"Plot Files"** asked for at 
+<sub><a href="https://www.pcbway.com/"><img src="images/PCBWay179x50.png" alt="Alt text" height="25" /></a></sub> 
+when ordering 10 PCBs for $5  
+* If you have <span style="font-size: large;">**[KiCAD EDA](https://www.kicad.org/)**</span>,  
+<sub><a href="https://www.pcbway.com/"><img src="images/PCBWay179x50.png" alt="Alt text" height="25" /></a></sub>
+have a Plugin ![Plugin](images/PCBWay_Icon.png) that will make things simple to order a PCB,  
+just load this project into <span style="font-size: large;">**[KiCAD EDA](https://www.kicad.org/)**</span> install the plugin click the Icon ![Plugin](images/PCBWay_Icon.png) and it will create all the nesesery files needed and take you to order a PCB 
+and compeate the form on 
+<sub><a href="https://www.pcbway.com/"><img src="images/PCBWay179x50.png" alt="Alt text" height="25" /></a></sub> 
+web site.  
 ## About  
 The board can control two motors with quadratic encoders and a station to set a reference point.  
 This is my second I2C Motor Driver, My first worked OK, but The MOSFETS I used where a little temperamental,  
