@@ -53,6 +53,8 @@ The DRV8876 is an N-channel H-bridge motor driver, the board has two of these.
 * 3.5-A Peak. On the board I have put places for Current limit resistors.  
 * Supports 1.8-V, 3.3-V, and 5-V logic inputs. (The STM8S103F3 opperates at 2.95 to 5.5 V)  
 * On the board the DRV8876 are set to PH/EN Control Mode.  
+* The nSleep is fixed High, so no low power mode.  
+* I have connected the IPROPI to the STM8S103F3 so current readings can be sensed.  
 ## There are connections for a Quadratic Encoder for each Motor  
 ![Quadratic Signal](images/Oscilloscope.png)  
 The Quadratic Encoder needs to be the A/B type and be the same VCC as the Board.  
