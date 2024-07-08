@@ -40,6 +40,12 @@ It worked fine with two single motor drivers  but because I was using a web inte
 * Two Yellow LEDs, one for Motor Power and one for VCC.  
 * There is a red LED on the SDA line to show activity.  
 * For each motor there is a red LED to show a fault, a blue LED to show Motor on and a Green LED to show if motor forward or reverse (on/off).  
+## There are Pads for programming the STM8S103F3
+* To program the STM8S103F3 will require STMicroelectronics "ST Visual Programmer"  
+* STMicroelectronics "ST Visual Programmer" is part of "ST MCU toolset".  
+* I have done .s19 file for use with the "ST Visual Programmer".  
+* An ST-Link is required.
+![ST-Link_v2](images/ST-Link_v2.png)  
 ## The Drivers used are DRV8876
 ![DRV8876 Functional Block_Diagram](images/DRV8876_Functional_Block_Diagram.png)  
 The DRV8876 is an N-channel H-bridge motor driver, the board has two of these.  

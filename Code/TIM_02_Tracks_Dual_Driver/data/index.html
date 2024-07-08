@@ -1,0 +1,298 @@
+<html>
+<head>
+    <title>Tim's ESP8266 Track Drive Control</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            overflow-x: auto;
+            overflow-y: auto;
+            font-family: Arial;
+            text-align: center;
+            background-color: darkgreen;
+            color: yellow;
+            margin: 0px;
+            padding-top: 2px;
+        }
+
+        p {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h1 {
+            margin: 0px;
+            padding-top: 0px;
+        }
+
+        table {
+            width: 300px;
+            height: auto;
+            margin: 4px auto 0px auto;
+            border: 1px solid #2f4468;
+            border-radius: 5px;
+            background-color: lightblue;
+            font-size: 16px;
+            color: #2f4468;
+        }
+
+        th {
+            margin: 0px;
+        }
+
+        td {
+            margin: 0px;
+            min-width: 60px;
+            max-width: 70px;
+        }
+
+        .MyImg {
+            height: 300px;
+            width: auto;
+            padding: -1px;
+        }
+
+        .myButton {
+            position: relative;
+            background-color: rgba(47, 68, 104, 0.5);
+            border-radius: 8px;
+            cursor: pointer;
+            padding: 2px;
+        }
+
+        .myButtonText {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: yellow;
+            opacity: 0.8;
+        }
+
+        .myButton img {
+            width: 60px;
+            height: 60px;
+        }
+
+        input[type="range"].myVSlide {
+            cursor: pointer;
+            width: 205px !important;
+            -webkit-appearance: none;
+            z-index: 200;
+            height: 8px;
+            padding: 0;
+            border: 1px solid #2f4468;
+            border-radius: 4px;
+            background-color: #2f4468;
+            background-image: -o-linear-gradient(right, #e6e6e6, #2f4468);
+            margin-left: -65px;
+            margin-right: -65px;
+        }
+
+        input[type="range"].myVSlide {
+            -webkit-transform: rotate(270deg);
+            -moz-transform: rotate(270deg);
+            -o-transform: rotate(270deg);
+            -ms-transform: rotate(270deg);
+            transform: rotate(270deg);
+        }
+
+        .myVSlide::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            background-color: #2f4468;
+            border: 1px solid #2f4468;
+            border-top-color: gray;
+            border-right-color: gray;
+            border-radius: 4px;
+            width: 15px;
+            height: 35px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Track Drive Control</h1>
+    <img id="gear"
+         class="MyImg"
+         src="Tracks.png"
+         alt="Front_View">
+    <table>
+        <tr>
+            <th colspan="3" align="center">Movment</th>
+            <th>
+                Speed
+                <p><span id="textSpeedValue">50%</span></p>
+            </th>
+        </tr>
+        <tr>
+            <td align="center">
+                <button class="myButton" onmousedown="Set_Drive_State('LF');" ontouchstart="Set_Drive_State('LF');">
+                    <img src="BF1.svg" alt="Left Forward" width="60" height="60">
+                    <span class="myButtonText">
+                        Left<br>
+                        Forward
+                    </span>
+                </button>
+            </td>
+            <td align="center">
+                <button class="myButton" onmousedown="Set_Drive_State('BF');" ontouchstart="Set_Drive_State('BF');">
+                    <img src="BF2.svg" alt="Left Forward" width="60" height="60">
+                    <span class="myButtonText">
+                        Both<br>
+                        Forward
+                    </span>
+                </button>
+            </td>
+            <td align="center">
+                <button class="myButton" onmousedown="Set_Drive_State('RF');" ontouchstart="Set_Drive_State('RF');">
+                    <img src="BF1.svg" alt="Left Forward" width="60" height="60">
+                    <span class="myButtonText">
+                        Right<br>
+                        Forward
+                    </span>
+                </button>
+            </td>
+            <td rowspan="4" align="center">
+                <input type="range"
+                       id="speedSlider"
+                       title="angle"
+                       class="myVSlide"
+                       min="100"
+                       max="1000"
+                       value="500"
+                       onmouseup="slideSet(this);"
+                       ontouchend="slideSet(this);"
+                       onmousemove="slideMove(this);"
+                       ontouchmove="slideMove(this);"
+                       orient="vertical">
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <button class="myButton" onmousedown="Set_Drive_State('RoL');" ontouchstart="Set_Drive_State('RoL');">
+                    <img src="BRL.svg" alt="Left Forward" width="60" height="60">
+                    <span class="myButtonText">
+                        Rotate<br>
+                        Left
+                    </span>
+                </button>
+            </td>
+            <td align="center">
+                <button class="myButton" onmousedown="Set_Drive_State('ST');" ontouchstart="Set_Drive_State('ST');">
+                    <img src="BS.svg" alt="Left Forward" width="60" height="60">
+                    <span class="myButtonText">Stop</span>
+                </button>
+            </td>
+            <td align="center">
+                <button class="myButton" onmousedown="Set_Drive_State('RoR');" ontouchstart="Set_Drive_State('RoR');">
+                    <img src="BRR.svg" alt="Left Forward" width="60" height="60">
+                    <span class="myButtonText">
+                        Rotate<br>
+                        Right
+                    </span>
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <button class="myButton" onmousedown="Set_Drive_State('LR');" ontouchstart="Set_Drive_State('LR');">
+                    <img src="BR1.svg" alt="Left Forward" width="60" height="60">
+                    <span class="myButtonText">
+                        Left<br>
+                        Reverse
+                    </span>
+                </button>
+            </td>
+            <td align="center">
+                <button class="myButton" onmousedown="Set_Drive_State('BR');" ontouchstart="Set_Drive_State('BR');">
+                    <img src="BR2.svg" alt="Left Forward" width="60" height="60">
+                    <span class="myButtonText">
+                        Both<br>
+                        Reverse
+                    </span>
+                </button>
+            </td>
+            <td align="center">
+                <button class="myButton" onmousedown="Set_Drive_State('RR');" ontouchstart="Set_Drive_State('RR');">
+                    <img src="BR1.svg" alt="Left Forward" width="60" height="60">
+                    <span class="myButtonText">
+                        Right<br>
+                        Reverse
+                    </span>
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+                <div>
+                    <p id="textPositionRecivedValue">
+                    </p>
+                </div>
+            </td>
+        </tr>
+
+    </table>
+
+    <script>
+
+		// Lock the screen orientation to portrait
+		function lockPortraitOrientation() {
+			if (screen.orientation && screen.orientation.lock) {
+				screen.orientation.lock("portrait");
+			}
+		}
+		// Call the function when the page loads
+        window.addEventListener("load", lockPortraitOrientation);
+
+
+        let Speed = 500;
+
+        /*  === Motors    === */
+
+        function Send_Command(command, callback) {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    if (callback) {
+                        callback();
+                    }
+                }
+            };
+            xhr.open("GET", "/Set_Drive_State?value=" + command, true);
+            xhr.send();
+        }
+
+
+        function Set_Drive_State(val) {
+
+                Send_Command(val);
+        }
+
+
+        /*  === Speed Slider    === */
+
+        function Set_Speed() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "/Set_Speed?value=" + Speed, true);
+            xhr.send();
+        }
+
+        function slideSet(element) {
+            if (element.id == "speedSlider") {
+                Speed = element.value
+                Set_Speed();
+            }
+        }
+
+        function slideMove(element) {
+            if (element.id == "speedSlider") {
+                document.getElementById("textSpeedValue").innerHTML = Math.ceil((element.value / 1000) * 100).toString() + "%";
+            }
+        }
+
+    </script>
+</body>
+</html>
+
