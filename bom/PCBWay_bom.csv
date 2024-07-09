@@ -1,0 +1,37 @@
+﻿designator,quantity,value,pack,mpn,mount_type
+"C1, C2",2,22nF,C_0805_2012Metric,,smt
+"C3, C4",2,100nF,C_0805_2012Metric,,smt
+"C5, C6",2,100nF,C_1206_3216Metric,,smt
+C7,1,1uF,C_0805_2012Metric,,smt
+"D1, D2, D9",3,LED (Red),LED_0805_2012Metric,,smt
+"D3, D5",2,LED (Blue),LED_0805_2012Metric,,smt
+"D4, D6",2,LED (Green),LED_0805_2012Metric,,smt
+"D7, D8",2,LED (Yellow),LED_0805_2012Metric,,smt
+"J1, J2",2,I2C,JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,,smt
+J3,1,Stations,JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,,smt
+J4,1,Motor A,JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal,,smt
+J5,1,Motor B,JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal,,smt
+J6,1,Motor Power,JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,,smt
+"JP1, JP2",2,Pull Up,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.0mm,,tht
+Pad1,1,VCC,Wire_Pad_D1.2mm,,smt
+"Pad10, Pad11",2,Heat Sink,Wire_Pad_2050mm,,smt
+Pad2,1,SWIM,Wire_Pad_D1.2mm,,smt
+Pad3,1,GND,Wire_Pad_D1.2mm,,smt
+Pad4,1,NRST,Wire_Pad_D1.2mm,,smt
+Pad5,1,Reset I2C,Wire_Pad_D1.2mm,,smt
+Pad6,1,VCC,Wire_Pad_2050mm,,smt
+"Pad7, Pad9",2,GND,Wire_Pad_2050mm,,smt
+Pad8,1,Motor power,Wire_Pad_2050mm,,smt
+"Q1, Q2",2,PNP_S8550,SOT-23,,smt
+"R1, R15, R18, R2, R21, R22, R5, R6",8,10k,R_0805_2012Metric,,smt
+"R10, R9",2,1k3,R_0805_2012Metric,,smt
+"R11, R12, R23, R24, R25, R26",6,68R,R_0805_2012Metric,,smt
+"R13, R14",2,4k7,R_0805_2012Metric,,smt
+"R16, R17",2,100R,R_0805_2012Metric,,smt
+R19,1,150R,R_0805_2012Metric,,smt
+R20,1,680R,R_0805_2012Metric,,smt
+R27,1,1K5,R_0805_2012Metric,,smt
+"R3, R4",2,510R,R_0805_2012Metric,,smt
+"R7, R8",2,Omit,R_0805_2012Metric,,smt
+U1,1,STM8S103F,TSSOP-20_4.4x6.5mm_P0.65mm,,smt
+"U2, U3",2,DRV8876,HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm,,smt

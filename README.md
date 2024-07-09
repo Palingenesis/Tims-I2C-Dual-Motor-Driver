@@ -13,6 +13,8 @@ just load this project into <span style="font-size: large;">**[KiCAD EDA](https:
 and compeate the form on 
 <sub><a href="https://www.pcbway.com/"><img src="images/PCBWay179x50.png" alt="Alt text" height="25" /></a></sub> 
 web site.  
+  
+<a href="https://www.pcbway.com/project/shareproject/Tim_s_I2C_Dual_Motor_Driver_4f620b08.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
 ## About  
 The board can control two motors with quadratic encoders and a station to set a reference point.  
 This is my second I2C Motor Driver, My first worked OK, but The MOSFETS I used where a little temperamental,  
@@ -58,7 +60,7 @@ The DRV8876 is an N-channel H-bridge motor driver, the board has two of these.
 ## There are connections for a Quadratic Encoder for each Motor  
 ![Quadratic Signal](images/Oscilloscope.png)  
 The Quadratic Encoder needs to be the A/B type and be the same VCC as the Board.  
-* If the Board counts bacwards when the motor runs forwrd, the two quadratic input need to be swapped.  
+* If the Board counts bacwards when the motor runs forward, the two quadratic input need to be swapped.  
 * With an encoder attached to a motor, commands can be sent to set the motor to a specific position.  
 ## There are connections for a Station for each Motor  
 * A Station is a place for a switch to be fitted to a project, that when triggerd, will reset the position of the Motor to a known position.  

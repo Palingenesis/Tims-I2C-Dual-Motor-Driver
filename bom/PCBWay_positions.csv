@@ -1,0 +1,68 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,value,mount_type,place
+-5.5,4.3,90.0,top,C1,,C_0805_2012Metric,22nF,smt,True
+12.5,4.3,90.0,top,C2,,C_0805_2012Metric,22nF,smt,True
+-9.0,3.5,180.0,top,C3,,C_0805_2012Metric,100nF,smt,True
+9.0,3.5,180.0,top,C4,,C_0805_2012Metric,100nF,smt,True
+13.5,11.0,90.0,top,C5,,C_1206_3216Metric,100nF,smt,True
+-4.5,11.0,90.0,top,C6,,C_1206_3216Metric,100nF,smt,True
+-1.0,-4.6,0.0,top,C7,,C_0805_2012Metric,1uF,smt,True
+-24.6,10.8,180.0,top,D1,,LED_0805_2012Metric,LED (Red),smt,True
+-24.6,4.8,180.0,top,D2,,LED_0805_2012Metric,LED (Red),smt,True
+21.4,4.6,90.0,top,D3,,LED_0805_2012Metric,LED (Blue),smt,True
+23.4,4.6,90.0,top,D4,,LED_0805_2012Metric,LED (Green),smt,True
+26.6,4.6,90.0,top,D5,,LED_0805_2012Metric,LED (Blue),smt,True
+28.6,4.6,90.0,top,D6,,LED_0805_2012Metric,LED (Green),smt,True
+26.0,13.0,90.0,top,D7,,LED_0805_2012Metric,LED (Yellow),smt,True
+-26.0,-2.6,-90.0,top,D8,,LED_0805_2012Metric,LED (Yellow),smt,True
+19.2,-3.0,180.0,top,D9,,LED_0805_2012Metric,LED (Red),smt,True
+-25.0,-10.0,0.0,top,J1,,JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,I2C,smt,True
+25.0,-10.0,0.0,top,J2,,JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,I2C,smt,True
+-25.0,20.0,180.0,top,J3,,JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,Stations,smt,True
+-9.0,20.0,180.0,top,J4,,JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal,Motor A,smt,True
+9.0,20.0,180.0,top,J5,,JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal,Motor B,smt,True
+25.0,20.0,180.0,top,J6,,JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal,Motor Power,smt,True
+11.9,-5.0,0.0,top,JP1,,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.0mm,Pull Up,tht,False
+11.9,-3.0,0.0,top,JP2,,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.0mm,Pull Up,tht,False
+-5.08,-11.43,0.0,top,Pad1,,Wire_Pad_D1.2mm,VCC,smt,True
+-10.3,10.0,-90.0,bottom,Pad10,,Wire_Pad_2050mm,Heat Sink,smt,True
+7.8,10.0,-90.0,bottom,Pad11,,Wire_Pad_2050mm,Heat Sink,smt,True
+-2.54,-11.43,0.0,top,Pad2,,Wire_Pad_D1.2mm,SWIM,smt,True
+0.0,-11.43,0.0,top,Pad3,,Wire_Pad_D1.2mm,GND,smt,True
+2.54,-11.43,0.0,top,Pad4,,Wire_Pad_D1.2mm,NRST,smt,True
+5.08,-11.43,0.0,top,Pad5,,Wire_Pad_D1.2mm,Reset I2C,smt,True
+-24.5,-12.5,-90.0,bottom,Pad6,,Wire_Pad_2050mm,VCC,smt,True
+-28.0,-12.5,-90.0,bottom,Pad7,,Wire_Pad_2050mm,GND,smt,True
+27.0,22.0,-90.0,bottom,Pad8,,Wire_Pad_2050mm,Motor power,smt,True
+23.0,22.0,-90.0,bottom,Pad9,,Wire_Pad_2050mm,GND,smt,True
+-25.0,7.8,180.0,top,Q1,,SOT-23,PNP_S8550,smt,True
+-25.0,1.8,180.0,top,Q2,,SOT-23,PNP_S8550,smt,True
+-21.0,8.8,180.0,top,R1,,R_0805_2012Metric,10k,smt,True
+-9.0,-0.6,0.0,top,R10,,R_0805_2012Metric,1k3,smt,True
+-21.0,10.8,180.0,top,R11,,R_0805_2012Metric,68R,smt,True
+-21.0,4.8,180.0,top,R12,,R_0805_2012Metric,68R,smt,True
+15.2,-5.0,0.0,top,R13,,R_0805_2012Metric,4k7,smt,True
+15.2,-3.0,0.0,top,R14,,R_0805_2012Metric,4k7,smt,True
+5.08,-8.89,-90.0,top,R15,,R_0805_2012Metric,10k,smt,True
+8.5,-3.0,0.0,top,R16,,R_0805_2012Metric,100R,smt,True
+8.5,-5.0,180.0,top,R17,,R_0805_2012Metric,100R,smt,True
+2.54,-8.89,90.0,top,R18,,R_0805_2012Metric,10k,smt,True
+-28.0,-2.6,90.0,top,R19,,R_0805_2012Metric,150R,smt,True
+-21.0,2.8,180.0,top,R2,,R_0805_2012Metric,10k,smt,True
+23.2,-3.0,180.0,top,R20,,R_0805_2012Metric,680R,smt,True
+-9.5,-6.25,90.0,top,R21,,R_0805_2012Metric,10k,smt,True
+-6.5,-6.25,90.0,top,R22,,R_0805_2012Metric,10k,smt,True
+21.4,1.0,-90.0,top,R23,,R_0805_2012Metric,68R,smt,True
+23.4,1.0,-90.0,top,R24,,R_0805_2012Metric,68R,smt,True
+26.6,1.0,-90.0,top,R25,,R_0805_2012Metric,68R,smt,True
+28.6,1.0,-90.0,top,R26,,R_0805_2012Metric,68R,smt,True
+24.0,13.0,-90.0,top,R27,,R_0805_2012Metric,1K5,smt,True
+-21.0,6.8,180.0,top,R3,,R_0805_2012Metric,510R,smt,True
+-21.0,0.8,180.0,top,R4,,R_0805_2012Metric,510R,smt,True
+0.5,14.5,90.0,top,R5,,R_0805_2012Metric,10k,smt,True
+19.5,13.5,180.0,top,R6,,R_0805_2012Metric,10k,smt,True
+2.5,13.0,90.0,top,R7,,R_0805_2012Metric,Omit,smt,True
+20.5,10.5,90.0,top,R8,,R_0805_2012Metric,Omit,smt,True
+-9.0,1.4,0.0,top,R9,,R_0805_2012Metric,1k3,smt,True
+0.0,-0.0,0.0,top,U1,,TSSOP-20_4.4x6.5mm_P0.65mm,STM8S103F,smt,True
+-9.0,10.0,-90.0,top,U2,,HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm,DRV8876,smt,True
+9.0,10.0,-90.0,top,U3,,HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm,DRV8876,smt,True
