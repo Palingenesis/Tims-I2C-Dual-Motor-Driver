@@ -108,9 +108,7 @@ The **'G'** code **P**\<value> can be negative values. So why have **G1** and **
 * You may want to only use Unsigned Integers to save memory.  
 
 ### *Click this image to see a video of it in use.*
-<a href="https://www.youtube.com/watch?v=bSmED1MQUrw" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.youtube.com/vi/bSmED1MQUrw/maxresdefault.jpg" width="600" height="300"/>
-</a>
+[<img src="https://img.youtube.com/vi/bSmED1MQUrw/maxresdefault.jpg" width="600" height="340"/>](https://www.youtube.com/watch?v=bSmED1MQUrw)
 
 ## A Typical 4 Motor setup  
 ![Typical 4 Motor setup](images/Tims_I2C_Dual_Motor_Driver_bb.png)  
