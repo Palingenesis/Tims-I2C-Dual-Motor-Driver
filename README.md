@@ -105,8 +105,13 @@ The **'G'** code **P**\<value> can be negative values. So why have **G1** and **
 * To keep options open.  
 * All positions are relative to a zero.  
 * When writing your own code to control the Motors you may only have the option of Unsigned Integers.  
-You may want to only use Unsigned Integers to save memory.  
-[<img src="https://img.youtube.com/vi/bSmED1MQUrw/maxresdefault.jpg" width="600" height="300"/>](https://www.youtube.com/watch?v=bSmED1MQUrw)
+* You may want to only use Unsigned Integers to save memory.  
+
+### *Click this image to see a video of it in use.*
+<a href="https://www.youtube.com/watch?v=bSmED1MQUrw" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.youtube.com/vi/bSmED1MQUrw/maxresdefault.jpg" width="600" height="300"/>
+</a>
+
 ## A Typical 4 Motor setup  
 ![Typical 4 Motor setup](images/Tims_I2C_Dual_Motor_Driver_bb.png)  
 * One Microcontroller.  
