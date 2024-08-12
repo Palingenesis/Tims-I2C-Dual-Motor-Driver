@@ -7231,7 +7231,7 @@
 				)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "150R"
 			(at 172.72 179.07 90)
 			(effects
 				(font
@@ -7370,7 +7370,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "150R"
 			(at 245.11 118.1099 0)
 			(effects
 				(font
@@ -9835,7 +9835,7 @@
 				)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "150R"
 			(at 223.52 191.135 90)
 			(effects
 				(font
@@ -10901,7 +10901,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "150R"
 			(at 363.22 118.1099 0)
 			(effects
 				(font
@@ -11306,7 +11306,7 @@
 				)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "150R"
 			(at 223.52 179.07 90)
 			(effects
 				(font
@@ -11374,7 +11374,7 @@
 				)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "150R"
 			(at 172.72 191.135 90)
 			(effects
 				(font
