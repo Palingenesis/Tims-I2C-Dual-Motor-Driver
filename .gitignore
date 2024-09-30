@@ -383,3 +383,6 @@ Tims_I2C_Dual_Motor_Driver-backups/
 /.gitignore
 /.gitattributes
 /.vs
+/EEPROM.png
+/Tims_I2C_Dual_Motor_Driver_STM8S103F3_Pins.cpt
+/fp-info-cache

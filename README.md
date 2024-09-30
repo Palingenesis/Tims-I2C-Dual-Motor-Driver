@@ -1,6 +1,8 @@
 # This is My I2C Dual Motor Driver  
 ![3D Top](images/Tims_I2C_Dual_Motor_Driver_3D_Top.png)  
 ## This is an I2C controlled Dual Motor Driver Board.  
+## This is an I2C controlled Dual Motor Driver Board.  
+<span style="color: red; font-weight: bold;">This Board has been supperceeded by this one [Tims I2C Dual Motor Driver Version 2](https://www.pcbway.com/project/shareproject/Tim_s_I2C_Dual_Motor_Driver_[Version_2]_0646aaaf.html)</span>  
 ### Files are for [KiCAD EDA](https://www.kicad.org/)  
 There is <span style="font-size: large;">**"Tims_I2C_Dual_Motor_Driver.kicad_pcb.zip"**</span> file  
 * This can be used when **"Plot Files"** asked for at 
