@@ -15,7 +15,7 @@ and compeate the form on
 <sub><a href="https://www.pcbway.com/"><img src="images/PCBWay179x50.png" alt="Alt text" height="25" /></a></sub> 
 web site.  
   
-<a href="https://www.pcbway.com/project/shareproject/Tim_s_I2C_Dual_Motor_Driver_4f620b08.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
+<a href="https://www.pcbway.com/project/member/?bmbno=3B5E17AE-462C-47"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
 ## About  
 The board can control two motors with quadratic encoders and a station to set a reference point.  
 This is my second I2C Motor Driver, My first worked OK, but The MOSFETS I used where a little temperamental,  
